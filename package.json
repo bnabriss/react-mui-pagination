@@ -1,0 +1,45 @@
+{
+  "name": "react-mui-pagination",
+  "version": "1.1.0",
+  "description": "React Material UI Pagination",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1"
+  },
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1",
+    "react-scripts": "3.0.1",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnabriss/react-mui-pagination.git"
+  },
+  "keywords": [
+    "material",
+    "ui",
+    "react",
+    "pagination"
+  ],
+  "author": "Bassam Nabriss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bnabriss/react-mui-pagination/issues"
+  },
+  "homepage": "https://github.com/bnabriss/react-mui-pagination#readme",
+  "dependencies": {}
+}

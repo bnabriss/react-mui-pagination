@@ -1,0 +1,12 @@
+src
+.babelrc
+src/
+test/
+.npmignore
+.babelrc
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
